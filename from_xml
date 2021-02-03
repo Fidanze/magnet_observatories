@@ -1,0 +1,4 @@
+import 'xlsx-loader'
+import xlsData from '../../data/list_of_IMOs.xls'
+const xlsDataList = xlsData.list;
+console.log(xlsDataList)
